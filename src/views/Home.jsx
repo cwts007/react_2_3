@@ -11,7 +11,7 @@ export default function Home() {
     return (
         <div className="home-container">
             <h1>Bienvenido maestro Pokémon</h1>
-            <img src="/pokemon.png" alt="Pokemon" className="pokemon-image" />
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png" alt="Pikachu" className="pokemon-image" />
             <button onClick={goToPokemones}>Ver Pokemones</button>
         </div>
     );
